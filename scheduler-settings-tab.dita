@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_jtn_1mg_w5b">
+    <title>Дополнительные параметры задачи</title>
+    <shortdesc>Вкладка <uicontrol conkeyref="images/schd-settings-tab"/> позволяет определить поведение
+        задачи в особых случаях.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_hyv_ntj_w5b"><p>Перейдите на вкладку <uicontrol
+                conkeyref="images/schd-settings-tab"/>.</p><fig id="fig_pnb_fn3_x5b"
+                conkeyref="images/fig-schd-settings-tab"/></prereq>
+        
+        <steps>
+            <step>
+                <cmd>Установите флаг <uicontrol><text product="en">Run task as soon as possible after a
+                            scheduled start is missed</text><text product="ru">Немедленно запускать
+                            задачу, если пропущен плановый запуск</text></uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Снимите флаг <uicontrol><text product="en">Stop the task if it runs
+                            longer…</text><text product="ru">Останавливать задачу, выполняемую
+                            дольше…</text></uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Нажмите кнопку <uicontrol><text product="en ru">OK</text></uicontrol>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

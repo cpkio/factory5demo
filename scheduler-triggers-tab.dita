@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_ptz_ylg_w5b">
+    <title>Настройка запуска, периодичности и остановки задачи</title>
+    <shortdesc>Вкладка <uicontrol conkeyref="images/schd-triggers-tab"/> позволяет установить время и
+        периодичность запуска задачи, а также отложить или отключить её в указанное время.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_qwy_3tj_w5b"><p>Перейдите на вкладку <uicontrol
+                conkeyref="images/schd-triggers-tab"/>.</p><fig id="fig_lc5_xm3_x5b"
+                conkeyref="images/fig-schd-triggers-tab"/></prereq>
+        <steps>
+            <step>
+                <cmd>Нажмите кнопку <uicontrol id="triggers-create-button"><text product="en">New…</text>
+                        <text product="ru">Создать…</text></uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>В открывшемся окне <wintitle><text product="en">New Trigger</text><text product="ru"
+                            >Создание триггера</text></wintitle> установите значение выпадающего меню
+                            <uicontrol><text product="en">Begin the task</text><text product="ru">Начать
+                            задачу</text></uicontrol> в значение <uicontrol><text product="en">On a
+                            schedule</text><text product="ru">По расписанию</text></uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>В группе <uicontrol><text product="en">Settings</text><text product="ru"
+                            >Параметры</text></uicontrol> установите переключатель в значение
+                            <uicontrol><text product="en">One time</text><text product="ru"
+                            >Однократно</text></uicontrol>. Установите дату и время <i>в будущем</i>,
+                    когда задача начнёт работу.</cmd>
+            </step>
+            <step>
+                <cmd>В группе <uicontrol><text product="en">Advanced settings</text><text product="ru"
+                            >Дополнительные параметры</text></uicontrol> установите флаг <uicontrol><text
+                            product="en">Repeat task</text><text product="ru">Повторять
+                        задачу</text></uicontrol>. В выпадающем меню <uicontrol><text product="en"
+                            >every:</text><text product="ru">каждые:</text></uicontrol> выберите
+                    периодичность <userinput><text product="en">1 hour</text><text product="ru"
+                            >1 ч.</text></userinput>. В выпадающем меню <uicontrol><text product="en">for
+                            a duration of:</text>
+                        <text product="ru">в течение:</text></uicontrol> введите <i>вручную</i>
+                    <userinput><text product="en">14 days</text><text product="ru">14
+                        дн.</text></userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Убедитесь, что флаг <uicontrol><text product="en">Enabled</text><text product="ru"
+                            >Включено</text></uicontrol> установлен.</cmd>
+            </step>
+        </steps>
+        <postreq id="postreq_k1m_ltg_w5b">Перейдите к шагу <xref href="scheduler-actions-tab.dita"/>
+            (вкладка <uicontrol conkeyref="images/schd-actions-tab"/>).</postreq>
+    </taskbody>
+</task>

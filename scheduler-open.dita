@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_bh3_v2s_v5b">
+    <title>Создание и настройка задачи в приложении <wintitle conkeyref="images/taskschd"/></title>
+    <shortdesc>В этой статье показано, как можно открыть приложение <wintitle conkeyref="images/taskschd"
+        /> и как начать создание задачи.</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Откройте приложение <wintitle conkeyref="images/taskschd"/> одним из следующих
+                    способов.</cmd>
+                <choices id="choices_ovk_qhs_v5b">
+                    <choice>Откройте меню приложений операционной системы и выберите в нём <menucascade
+                            conkeyref="images/task-scheduler-menu-path">
+                            <uicontrol/>
+                        </menucascade>.</choice>
+                    <choice>Нажмите сочетание клавиш <uicontrol>Win+R</uicontrol>, откроется окно
+                                <wintitle><text product="en">Run</text><text product="ru"
+                                >Выполнить</text></wintitle>. Введите в поле ввода команду
+                            <userinput>taskschd.msc</userinput> и нажмите клавишу
+                            <uicontrol>Enter</uicontrol>.</choice>
+                </choices>
+            </step>
+            <step>
+                <cmd>Вызовите контекстное меню элемента <uicontrol
+                        conkeyref="images/task-scheduler-tree-common-tasks"/> (<menucascade
+                        conkeyref="images/task-scheduler-tree">
+                        <uicontrol/>
+                    </menucascade>) и выберите пункт <uicontrol conkeyref="images/schd-context-menu"
+                    />.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

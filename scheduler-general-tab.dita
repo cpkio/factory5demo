@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_wmm_slg_w5b">
+    <title>Настройка имени задания и полномочий запуска</title>
+    <shortdesc>Вкладка <uicontrol conkeyref="images/schd-general-tab"/> позволяет задать имя и описание
+        задания, а также полномочия, с которыми оно будет выполняться.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_vb3_2tj_w5b"><p>Перейдите на вкладку <uicontrol
+                conkeyref="images/schd-general-tab"/>.</p><fig id="fig_ylq_sm3_x5b"
+                conkeyref="images/fig-schd-general-tab"/></prereq>
+        <steps>
+            <step>
+                <cmd>В поле <uicontrol><text product="en">Name</text><text product="ru"
+                        >Имя</text></uicontrol> введите наименование создаваемого задания.</cmd>
+            </step>
+            <step>
+                <cmd importance="optional">В поле <uicontrol><text product="en">Description</text><text
+                            product="ru">Описание</text></uicontrol> введите описание созданного
+                    задания.</cmd>
+            </step>
+            <step>
+                <cmd>В группе <uicontrol><text product="en">Security options</text><text product="ru"
+                            >Параметры безопасности</text></uicontrol> установите переключатель в
+                    значение <uicontrol><text product="en">Run only when user is logged on</text><text
+                            product="ru">Выполнять только для пользователей, вошедших в
+                        систему</text></uicontrol>.</cmd>
+            </step>
+        </steps>
+        <postreq id="postreq_k1m_ltg_w5b">Перейдите к шагу <xref href="scheduler-triggers-tab.dita"/>
+            (вкладка <uicontrol conkeyref="images/schd-triggers-tab"/>).</postreq>
+    </taskbody>
+</task>

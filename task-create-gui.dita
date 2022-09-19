@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_agx_qdg_w5b">
+    <title>Создание и настройка задания при помощи графического интерфейса приложения <wintitle
+            conkeyref="images/taskschd"/></title>
+    <shortdesc/>
+    <taskbody>
+        <prereq id="prereq_nk4_x2g_w5b">Приложение <wintitle conkeyref="images/taskschd"/> должно быть
+            открыто.</prereq>
+        <steps>
+            <step>
+                <cmd>Вызовите контекстное меню элемента <uicontrol
+                        conkeyref="images/task-scheduler-tree-common-tasks"/> (<menucascade
+                        conkeyref="images/task-scheduler-tree">
+                        <uicontrol/>
+                    </menucascade>) и выберите пункт <uicontrol conkeyref="images/schd-context-menu"
+                    />.</cmd>
+            </step>
+            <step>
+                <cmd>На вкладке <uicontrol conkeyref="images/schd-general-tab"/> введите имя создаваемой
+                    задачи.</cmd>
+            </step>
+            <step>
+                <cmd>На вкладке <uicontrol conkeyref="images/schd-triggers-tab"/> нажмите кнопку
+                        <uicontrol conkeyref="images/triggers-create-button"/>.</cmd>
+            </step>
+            <step>
+                <cmd>В диалоговом окне Создание триггера установите следующие параметры:</cmd>
+                <substeps id="substeps_mwn_bkg_w5b">
+                    <substep>
+                        <cmd>Установите значение выпадающего меню <uicontrol><text>Начать
+                                задачу</text></uicontrol> в значение <uicontrol><text>При входе в
+                                    систему</text></uicontrol>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>В поле <uicontrol><text>Параметры</text></uicontrol> установите
+                            переключатель в значение <uicontrol><text>Любой
+                                пользователь</text></uicontrol>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Установите флаг <uicontrol><text>Повторять задачу</text></uicontrol>, в
+                            выпадающем меню выберите периодичность <userinput>1 ч.</userinput> в течение
+                                <userinput>Бесконечно</userinput>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Установите флаг <uicontrol>Остановить задачу</uicontrol>, в выпадающем меню
+                            введите вручную значение <userinput>14 дн.</userinput>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Убедитесь, что флаг <uicontrol><text>Включено</text></uicontrol>
+                            установлен.</cmd>
+                    </substep>
+                </substeps>
+            </step>            <step>
+                <cmd>На вкладке <uicontrol conkeyref="images/schd-actions-tab"/></cmd>
+            </step>            <step>
+                <cmd>На вкладке <uicontrol conkeyref="images/schd-conditions-tab"/></cmd>
+            </step>            <step>
+                <cmd>На вкладке <uicontrol conkeyref="images/schd-settings-tab"/></cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>
