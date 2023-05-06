@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="images">
+<reference id="ref_images">
     <title>Сборник повторяемых элементов</title>
     <shortdesc>В этом файле хранятся элементы для повторного применения в документе.</shortdesc>
     <refbody>
@@ -14,72 +14,72 @@
                 </thead>
                 <tbody>
                     <row>
-                        <entry><wintitle id="taskschd"><text product="en">Task Scheduler</text><text
-                                    product="ru">Планировщик заданий</text></wintitle></entry>
+                        <entry><wintitle id="taskschd"><text otherprops="lang-en">Task Scheduler</text><text
+                                    otherprops="lang-ru">Планировщик заданий</text></wintitle></entry>
                         <entry>Имя приложения и его заголовок окна</entry>
                     </row>
                     <row>
                         <entry><menucascade id="task-scheduler-menu-path">
-                                <uicontrol><text product="en">Windows Administrative Tools</text><text
-                                        product="ru">Средства администрирования
+                                <uicontrol><text otherprops="lang-en">Windows Administrative Tools</text><text
+                                        otherprops="lang-ru">Средства администрирования
                                     Windows</text></uicontrol>
                                 <uicontrol id="task-scheduler"><image
                                         href="media/task-scheduler-clock-time-date-icon.png" width="1em"
-                                        height="1em"/><text product="en">Task Scheduler</text><text
-                                        product="ru">Планировщик заданий</text></uicontrol>
+                                        height="1em"/><text otherprops="lang-en">Task Scheduler</text><text
+                                        otherprops="lang-ru">Планировщик заданий</text></uicontrol>
                             </menucascade></entry>
                         <entry>Путь в меню</entry>
                     </row>
                     <row>
                         <entry><menucascade id="task-scheduler-tree">
-                                <uicontrol id="task-scheduler-tree-root"><text product="en">Task
-                                        Scheduler (Local)</text><text product="ru">Планировщик заданий
+                                <uicontrol id="task-scheduler-tree-root"><text otherprops="lang-en">Task
+                                        Scheduler (Local)</text><text otherprops="lang-ru">Планировщик заданий
                                         (Локальный)</text></uicontrol>
-                                <uicontrol id="task-scheduler-tree-common-tasks"><text product="en">Task
-                                        Scheduler Library</text><text product="ru">Библиотека
+                                <uicontrol id="task-scheduler-tree-common-tasks"><text otherprops="lang-en">Task
+                                        Scheduler Library</text><text otherprops="lang-ru">Библиотека
                                         планировщика заданий</text></uicontrol>
                             </menucascade>
                         </entry>
                         <entry>Дерево в левой части окна ПО</entry>
                     </row>
                     <row>
-                        <entry><uicontrol id="schd-context-menu"><text product="en">Create
-                                    Task…</text><text product="ru">Создать
+                        <entry><uicontrol id="schd-context-menu"><text otherprops="lang-en">Create
+                                    Task…</text><text otherprops="lang-ru">Создать
                             задачу…</text></uicontrol></entry>
                         <entry>Пункт контекстного меню</entry>
                     </row>
                     <row>
-                        <entry><uicontrol id="schd-general-tab"><text product="en">General</text><text
-                                    product="ru">Общие</text></uicontrol></entry>
+                        <entry><uicontrol id="schd-general-tab"><text otherprops="lang-en">General</text><text
+                                    otherprops="lang-ru">Общие</text></uicontrol></entry>
                         <entry>Вкладка</entry>
                     </row>
                     <row>
-                        <entry><uicontrol id="schd-triggers-tab"><text product="en">Triggers</text><text
-                                    product="ru">Триггеры</text></uicontrol></entry>
+                        <entry><uicontrol id="schd-triggers-tab"><text otherprops="lang-en">Triggers</text><text
+                                    otherprops="lang-ru">Триггеры</text></uicontrol></entry>
                         <entry>Вкладка</entry>
                     </row>
                     <row>
-                        <entry><uicontrol id="schd-actions-tab"><text product="en">Actions</text><text
-                                    product="ru">Действия</text></uicontrol></entry>
+                        <entry><uicontrol id="schd-actions-tab"><text otherprops="lang-en">Actions</text><text
+                                    otherprops="lang-ru">Действия</text></uicontrol></entry>
                         <entry>Вкладка</entry>
                     </row>
                     <row>
-                        <entry><uicontrol id="schd-conditions-tab"><text product="en"
-                                    >Conditions</text><text product="ru"
+                        <entry><uicontrol id="schd-conditions-tab"><text otherprops="lang-en"
+                                    >Conditions</text><text otherprops="lang-ru"
                             >Условия</text></uicontrol></entry>
                         <entry>Вкладка</entry>
                     </row>
                     <row>
-                        <entry><uicontrol id="schd-settings-tab"><text product="en">Settings</text><text
-                                    product="ru">Параметры</text></uicontrol></entry>
+                        <entry><uicontrol id="schd-settings-tab"><text otherprops="lang-en">Settings</text><text
+                                    otherprops="lang-ru">Параметры</text></uicontrol></entry>
                         <entry>Вкладка</entry>
                     </row>
                     <row>
                         <entry>
                             <fig id="fig-schd-tree">
                                 <title>Древо заданий</title>
-                                <image product="en" href="media/ui/en/task-schd-tree.png"/>
-                                <image product="ru" href="media/ui/ru/task-schd-tree.png"/>
+                                <image otherprops="lang-en" href="media/ui/en/task-schd-tree.png"/>
+                                <image otherprops="lang-ru" href="media/ui/ru/task-schd-tree.png"/>
                             </fig>
                         </entry>
                         <entry/>
@@ -88,8 +88,8 @@
                         <entry>
                             <fig id="fig-schd-context-menu">
                                 <title>Контекстное меню</title>
-                                <image product="en" href="media/ui/en/task-schd-context-menu.png"/>
-                                <image product="ru" href="media/ui/ru/task-schd-context-menu.png"/>
+                                <image otherprops="lang-en" href="media/ui/en/task-schd-context-menu.png"/>
+                                <image otherprops="lang-ru" href="media/ui/ru/task-schd-context-menu.png"/>
                             </fig>
                         </entry>
                         <entry/>
@@ -98,8 +98,8 @@
                         <entry>
                             <fig id="fig-schd-general-tab">
                                 <title>Вкладка <uicontrol conkeyref="images/schd-general-tab"/></title>
-                                <image product="en" href="media/ui/en/task-schd-general-tab.png"/>
-                                <image product="ru" href="media/ui/ru/task-schd-general-tab.png"/>
+                                <image otherprops="lang-en" href="media/ui/en/task-schd-general-tab.png"/>
+                                <image otherprops="lang-ru" href="media/ui/ru/task-schd-general-tab.png"/>
                             </fig>
                         </entry>
                         <entry/>
@@ -108,8 +108,8 @@
                         <entry>
                             <fig id="fig-schd-triggers-tab">
                                 <title>Вкладка <uicontrol conkeyref="images/schd-triggers-tab"/></title>
-                                <image product="en" href="media/ui/en/task-schd-triggers-tab.png"/>
-                                <image product="ru" href="media/ui/ru/task-schd-triggers-tab.png"/>
+                                <image otherprops="lang-en" href="media/ui/en/task-schd-triggers-tab.png"/>
+                                <image otherprops="lang-ru" href="media/ui/ru/task-schd-triggers-tab.png"/>
                             </fig>
                         </entry>
                         <entry/>
@@ -118,8 +118,8 @@
                         <entry>
                             <fig id="fig-schd-actions-tab">
                                 <title>Вкладка <uicontrol conkeyref="images/schd-actions-tab"/></title>
-                                <image product="en" href="media/ui/en/task-schd-actions-tab.png"/>
-                                <image product="ru" href="media/ui/ru/task-schd-actions-tab.png"/>
+                                <image otherprops="lang-en" href="media/ui/en/task-schd-actions-tab.png"/>
+                                <image otherprops="lang-ru" href="media/ui/ru/task-schd-actions-tab.png"/>
                             </fig>
                         </entry>
                         <entry/>
@@ -129,8 +129,8 @@
                             <fig id="fig-schd-conditions-tab">
                                 <title>Вкладка <uicontrol conkeyref="images/schd-conditions-tab"
                                     /></title>
-                                <image product="en" href="media/ui/en/task-schd-conditions-tab.png"/>
-                                <image product="ru" href="media/ui/ru/task-schd-conditions-tab.png"/>
+                                <image otherprops="lang-en" href="media/ui/en/task-schd-conditions-tab.png"/>
+                                <image otherprops="lang-ru" href="media/ui/ru/task-schd-conditions-tab.png"/>
                             </fig>
                         </entry>
                         <entry/>
@@ -139,8 +139,8 @@
                         <entry>
                             <fig id="fig-schd-settings-tab">
                                 <title>Вкладка <uicontrol conkeyref="images/schd-settings-tab"/></title>
-                                <image product="en" href="media/ui/en/task-schd-settings-tab.png"/>
-                                <image product="ru" href="media/ui/ru/task-schd-settings-tab.png"/>
+                                <image otherprops="lang-en" href="media/ui/en/task-schd-settings-tab.png"/>
+                                <image otherprops="lang-ru" href="media/ui/ru/task-schd-settings-tab.png"/>
                             </fig>
                         </entry>
                         <entry/>

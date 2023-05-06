@@ -10,42 +10,40 @@
                 conkeyref="images/fig-schd-triggers-tab"/></prereq>
         <steps>
             <step>
-                <cmd>Нажмите кнопку <uicontrol id="triggers-create-button"><text product="en">New…</text>
-                        <text product="ru">Создать…</text></uicontrol>.</cmd>
+                <cmd>Нажмите кнопку <uicontrol id="triggers-create-button"><text otherprops="lang-en">New…</text>
+                        <text otherprops="lang-ru">Создать…</text></uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>В открывшемся окне <wintitle><text product="en">New Trigger</text><text product="ru"
+                <cmd>В открывшемся окне <wintitle><text otherprops="lang-en">New Trigger</text><text otherprops="lang-ru"
                             >Создание триггера</text></wintitle> установите значение выпадающего меню
-                            <uicontrol><text product="en">Begin the task</text><text product="ru">Начать
-                            задачу</text></uicontrol> в значение <uicontrol><text product="en">On a
-                            schedule</text><text product="ru">По расписанию</text></uicontrol>.</cmd>
+                            <uicontrol><text otherprops="lang-en">Begin the task</text><text otherprops="lang-ru">Начать
+                            задачу</text></uicontrol> в значение <uicontrol><text otherprops="lang-en">On a
+                            schedule</text><text otherprops="lang-ru">По расписанию</text></uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>В группе <uicontrol><text product="en">Settings</text><text product="ru"
+                <cmd>В группе <uicontrol><text otherprops="lang-en">Settings</text><text otherprops="lang-ru"
                             >Параметры</text></uicontrol> установите переключатель в значение
-                            <uicontrol><text product="en">One time</text><text product="ru"
+                            <uicontrol><text otherprops="lang-en">One time</text><text otherprops="lang-ru"
                             >Однократно</text></uicontrol>. Установите дату и время <i>в будущем</i>,
                     когда задача начнёт работу.</cmd>
             </step>
             <step>
-                <cmd>В группе <uicontrol><text product="en">Advanced settings</text><text product="ru"
+                <cmd>В группе <uicontrol><text otherprops="lang-en">Advanced settings</text><text otherprops="lang-ru"
                             >Дополнительные параметры</text></uicontrol> установите флаг <uicontrol><text
-                            product="en">Repeat task</text><text product="ru">Повторять
-                        задачу</text></uicontrol>. В выпадающем меню <uicontrol><text product="en"
-                            >every:</text><text product="ru">каждые:</text></uicontrol> выберите
-                    периодичность <userinput><text product="en">1 hour</text><text product="ru"
-                            >1 ч.</text></userinput>. В выпадающем меню <uicontrol><text product="en">for
+                            otherprops="lang-en">Repeat task</text><text otherprops="lang-ru">Повторять
+                        задачу</text></uicontrol>. В выпадающем меню <uicontrol><text otherprops="lang-en"
+                            >every:</text><text otherprops="lang-ru">каждые:</text></uicontrol> выберите
+                    периодичность <userinput><text otherprops="lang-en">1 hour</text><text otherprops="lang-ru"
+                            >1 ч.</text></userinput>. В выпадающем меню <uicontrol><text otherprops="lang-en">for
                             a duration of:</text>
-                        <text product="ru">в течение:</text></uicontrol> введите <i>вручную</i>
-                    <userinput><text product="en">14 days</text><text product="ru">14
+                        <text otherprops="lang-ru">в течение:</text></uicontrol> введите <i>вручную</i>
+                    <userinput><text otherprops="lang-en">14 days</text><text otherprops="lang-ru">14
                         дн.</text></userinput>.</cmd>
             </step>
             <step>
-                <cmd>Убедитесь, что флаг <uicontrol><text product="en">Enabled</text><text product="ru"
+                <cmd>Убедитесь, что флаг <uicontrol><text otherprops="lang-en">Enabled</text><text otherprops="lang-ru"
                             >Включено</text></uicontrol> установлен.</cmd>
             </step>
         </steps>
-        <postreq id="postreq_k1m_ltg_w5b">Перейдите к шагу <xref href="scheduler-actions-tab.dita"/>
-            (вкладка <uicontrol conkeyref="images/schd-actions-tab"/>).</postreq>
     </taskbody>
 </task>

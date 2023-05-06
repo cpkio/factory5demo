@@ -1,15 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map>
-    <title>Создание и настройка задач в приложении <wintitle conkeyref="images/taskschd"/></title>
+<map xml:lang="ru">
+    <title>Создание и настройка задач в приложении <wintitle
+            conkeyref="images/taskschd"/></title>
     <topicref href="intro.dita"/>
-    <topicref href="requirements.dita"/>
-    <topicref href="scheduler-open.dita">
-        <topicref href="scheduler-general-tab.dita"/>
-        <topicref href="scheduler-triggers-tab.dita"/>
-        <topicref href="scheduler-actions-tab.dita"/>
-        <topicref href="scheduler-conditions-tab.dita"/>
-        <topicref href="scheduler-settings-tab.dita"/>
+    <topicref href="requirements.dita">
+        <topicmeta>
+            <metadata>
+                <keywords>
+                    <indexterm/>
+                </keywords>
+            </metadata>
+        </topicmeta>
     </topicref>
-    <topicref href="images.dita" keys="images" processing-role="resource-only"/>
+    <topicref href="scheduler-open.dita" collection-type="sequence">
+        <topicref href="sublevel.ditamap" format="ditamap"/>
+    </topicref>
+    <topicref href="images.dita" keys="images"
+        processing-role="resource-only"/>
+    <reltable>
+        <title>Таблица ссылок</title>
+        <relheader>
+            <relcolspec/>
+            <relcolspec type="task"/>
+            <relcolspec/>
+        </relheader>
+        <relrow>
+            <relcell linking="sourceonly">
+                <topicref href="scheduler-open.dita"/>
+            </relcell>
+            <relcell>
+                <topicref href="scheduler-general-tab.dita"/>
+                <topicref href="scheduler-triggers-tab.dita"/>
+                <topicref href="scheduler-actions-tab.dita"/>
+                <topicref href="scheduler-conditions-tab.dita"/>
+                <topicref href="scheduler-settings-tab.dita"/>
+            </relcell>
+            <relcell/>
+        </relrow>
+        <relrow>
+            <relcell/>
+            <relcell collection-type="sequence">
+                <topicref href="scheduler-general-tab.dita"/>
+                <topicref href="scheduler-triggers-tab.dita"/>
+                <topicref href="scheduler-actions-tab.dita"/>
+                <topicref href="scheduler-conditions-tab.dita"/>
+                <topicref href="scheduler-settings-tab.dita"/>
+            </relcell>
+            <relcell/>
+        </relrow>
+    </reltable>
 </map>

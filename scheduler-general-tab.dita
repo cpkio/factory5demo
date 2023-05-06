@@ -10,23 +10,21 @@
                 conkeyref="images/fig-schd-general-tab"/></prereq>
         <steps>
             <step>
-                <cmd>В поле <uicontrol><text product="en">Name</text><text product="ru"
+                <cmd>В поле <uicontrol><text otherprops="lang-en">Name</text><text otherprops="lang-ru"
                         >Имя</text></uicontrol> введите наименование создаваемого задания.</cmd>
             </step>
             <step>
-                <cmd importance="optional">В поле <uicontrol><text product="en">Description</text><text
-                            product="ru">Описание</text></uicontrol> введите описание созданного
+                <cmd importance="optional">В поле <uicontrol><text otherprops="lang-en">Description</text><text
+                            otherprops="lang-ru">Описание</text></uicontrol> введите описание созданного
                     задания.</cmd>
             </step>
             <step>
-                <cmd>В группе <uicontrol><text product="en">Security options</text><text product="ru"
+                <cmd>В группе <uicontrol><text otherprops="lang-en">Security options</text><text otherprops="lang-ru"
                             >Параметры безопасности</text></uicontrol> установите переключатель в
-                    значение <uicontrol><text product="en">Run only when user is logged on</text><text
-                            product="ru">Выполнять только для пользователей, вошедших в
+                    значение <uicontrol><text otherprops="lang-en">Run only when user is logged on</text><text
+                            otherprops="lang-ru">Выполнять только для пользователей, вошедших в
                         систему</text></uicontrol>.</cmd>
             </step>
         </steps>
-        <postreq id="postreq_k1m_ltg_w5b">Перейдите к шагу <xref href="scheduler-triggers-tab.dita"/>
-            (вкладка <uicontrol conkeyref="images/schd-triggers-tab"/>).</postreq>
     </taskbody>
 </task>

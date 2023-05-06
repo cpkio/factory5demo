@@ -11,17 +11,17 @@
 
         <steps>
             <step>
-                <cmd>Нажмите кнопку <uicontrol id="triggers-create-button"><text product="en">New…</text>
-                        <text product="ru">Создать…</text></uicontrol>.</cmd>
+                <cmd>Нажмите кнопку <uicontrol id="triggers-create-button"><text otherprops="lang-en">New…</text>
+                        <text otherprops="lang-ru">Создать…</text></uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>В выпадающем меню <uicontrol><text product="en">Action</text><text product="ru"
+                <cmd>В выпадающем меню <uicontrol><text otherprops="lang-en">Action</text><text otherprops="lang-ru"
                             >Действие</text></uicontrol> установите значение <uicontrol><text
-                            product="en">Start a program</text><text product="ru">Запуск
+                            otherprops="lang-en">Start a program</text><text otherprops="lang-ru">Запуск
                         программы</text></uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>Нажмите кнопку <uicontrol><text product="en">Browse…</text><text product="ru"
+                <cmd>Нажмите кнопку <uicontrol><text otherprops="lang-en">Browse…</text><text otherprops="lang-ru"
                             >Обзор…</text></uicontrol> и выберите исполняемый файл требуемого почтового
                     клиента.</cmd>
             </step>
@@ -30,10 +30,8 @@
                     файла.</cmd>
             </step>
             <step>
-                <cmd>Нажмите <uicontrol><text product="en ru">OK</text></uicontrol>.</cmd>
+                <cmd>Нажмите <uicontrol><text otherprops="lang-en lang-ru">OK</text></uicontrol>.</cmd>
             </step>
         </steps>
-        <postreq id="postreq_k1m_ltg_w5b">Перейдите к шагу <xref href="scheduler-conditions-tab.dita"
-            />.</postreq>
     </taskbody>
 </task>

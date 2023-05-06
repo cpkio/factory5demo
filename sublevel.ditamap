@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map collection-type="sequence">
+    <topicref keys="tab1" href="scheduler-general-tab.dita"/>
+    <topicref keys="tab2" href="scheduler-triggers-tab.dita"/>
+    <topicref keys="tab3" href="scheduler-actions-tab.dita"/>
+    <topicref keys="tab4" href="scheduler-conditions-tab.dita"/>
+    <topicref keys="tab5 end" href="scheduler-settings-tab.dita"/>
+</map>

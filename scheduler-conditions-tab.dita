@@ -12,17 +12,15 @@
         
         <steps>
             <step>
-                <cmd>Установите флаг <uicontrol><text product="en">Wake the computer to run this
-                            task</text><text product="ru">Пробуждать компьютер для выполнения
+                <cmd>Установите флаг <uicontrol><text otherprops="lang-en">Wake the computer to run this
+                            task</text><text otherprops="lang-ru">Пробуждать компьютер для выполнения
                             задачи</text></uicontrol>.</cmd>
             </step>
             <step importance="optional">
-                <cmd>Снимите флаг <uicontrol><text product="en">Start the task only if the computer is on
-                            AC power</text><text product="ru">Запускать компьютер только при питании от
+                <cmd>Снимите флаг <uicontrol><text otherprops="lang-en">Start the task only if the computer is on
+                            AC power</text><text otherprops="lang-ru">Запускать компьютер только при питании от
                             электросети</text></uicontrol>.</cmd>
             </step>
         </steps>
-        <postreq id="postreq_k1m_ltg_w5b">Перейдите к шагу <xref href="scheduler-settings-tab.dita"/>
-            (вкладка <uicontrol conkeyref="images/schd-settings-tab"/>).</postreq>
     </taskbody>
 </task>

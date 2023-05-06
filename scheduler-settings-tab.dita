@@ -11,17 +11,17 @@
         
         <steps>
             <step>
-                <cmd>Установите флаг <uicontrol><text product="en">Run task as soon as possible after a
-                            scheduled start is missed</text><text product="ru">Немедленно запускать
+                <cmd>Установите флаг <uicontrol><text otherprops="lang-en">Run task as soon as possible after a
+                            scheduled start is missed</text><text otherprops="lang-ru">Немедленно запускать
                             задачу, если пропущен плановый запуск</text></uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>Снимите флаг <uicontrol><text product="en">Stop the task if it runs
-                            longer…</text><text product="ru">Останавливать задачу, выполняемую
+                <cmd>Снимите флаг <uicontrol><text otherprops="lang-en">Stop the task if it runs
+                            longer…</text><text otherprops="lang-ru">Останавливать задачу, выполняемую
                             дольше…</text></uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>Нажмите кнопку <uicontrol><text product="en ru">OK</text></uicontrol>.</cmd>
+                <cmd>Нажмите кнопку <uicontrol><text otherprops="lang-en lang-ru">OK</text></uicontrol>.</cmd>
             </step>
         </steps>
     </taskbody>

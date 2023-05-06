@@ -15,7 +15,7 @@
                             <uicontrol/>
                         </menucascade>.</choice>
                     <choice>Нажмите сочетание клавиш <uicontrol>Win+R</uicontrol>, откроется окно
-                                <wintitle><text product="en">Run</text><text product="ru"
+                                <wintitle><text otherprops="lang-en">Run</text><text otherprops="lang-ru"
                                 >Выполнить</text></wintitle>. Введите в поле ввода команду
                             <userinput>taskschd.msc</userinput> и нажмите клавишу
                             <uicontrol>Enter</uicontrol>.</choice>
